@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef4fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.weather-app {
+  text-align: center;
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+
+.watermark {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  z-index: 0;
+  background: url('https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png') no-repeat;
+  background-size: 40px 40px;
+  background-position: left center;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 12px;
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px;
+  width: 100%;
+  font-size: 16px;
+  background-color: #28a745; 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.weather-result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #555;
+}
+
+#temperature, #condition {
+  margin: 8px 0;
+}
